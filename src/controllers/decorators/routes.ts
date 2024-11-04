@@ -4,7 +4,7 @@ import { Methods } from './Methods';
 import { MetadataKeys } from './MetadataKeys';
 
 interface RouteHandlerDescriptor extends PropertyDescriptor {
-  value?: RequestHandler
+  value?: RequestHandler;
 }
 
 function routeBinder(method: string) {
